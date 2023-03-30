@@ -1,9 +1,13 @@
 const express = require('express');
+const cors = require('cors');
 
 const server = express();
 const port = process.env.PORT || 3000
 const brands = require('./src/data/brands.json');
 const cars = require('./src/data/cars.json');
+
+server.use(cors());
+
 
 server.get('/',(req, res)=>{
     return res.json('not found');
