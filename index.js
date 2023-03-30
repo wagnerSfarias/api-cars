@@ -5,10 +5,12 @@ const port = process.env.PORT || 3000
 const brands = require('./src/data/brands.json');
 const cars = require('./src/data/cars.json');
 
-server.get('/brands',(req, res)=>{
-    
-        return res.json(brands);
+server.get('/',(req, res)=>{
+    return res.json('not found');
+})
 
+server.get('/brands',(req, res)=>{
+        return res.json(brands);
 })
 
 server.get('/cars',(req, res)=>{
