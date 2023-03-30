@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "name": "Volkswagem",
+        "icon": "https://github.com/wagnerSfarias/carSale/blob/main/src/assets/logoVW.png?raw=true"
+    },
+    {
+        "id": "2",
+        "name": "Audi",
+        "icon": "https://raw.githubusercontent.com/wagnerSfarias/carSale/main/src/assets/logoAudi.png"
+    },
+    {
+        "id": "3",
+        "name": "BMW",
+        "icon": "https://github.com/wagnerSfarias/carSale/blob/main/src/assets/logoBMW.jpg?raw=true"
+    },
+    {
+        "id": "4",
+        "name": "Toyota",
+        "icon": "https://raw.githubusercontent.com/wagnerSfarias/carSale/main/src/assets/logoToyota.webp"
+    },
+    {
+        "id": "5",
+        "name": "Mercedes",
+        "icon": "https://github.com/wagnerSfarias/carSale/blob/main/src/assets/logoMEC.jpg?raw=true"
+    }
+]
